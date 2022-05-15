@@ -1,0 +1,19 @@
+{
+    "name": "kuzon/belajar-composer",
+    "description": "belajar",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "BelajarComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dhan",
+            "email": "ramadhan25321@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog" : "3.0.0"
+    }
+}
